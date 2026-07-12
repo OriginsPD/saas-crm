@@ -1,35 +1,40 @@
 {
-  "name": "@portfolio-saas-crm/db",
-  "type": "module",
-  "exports": {
-    ".": {
-      "default": "./src/index.ts"
-    },
-    "./*": {
-      "default": "./src/*.ts"
-    }
-  },
-  "scripts": {
-    "db:push": "drizzle-kit push",
-    "db:generate": "drizzle-kit generate",
-    "db:studio": "drizzle-kit studio",
-    "db:migrate": "drizzle-kit migrate",
-    "db:start": "docker compose up -d",
-    "db:watch": "docker compose up",
-    "db:stop": "docker compose stop",
-    "db:down": "docker compose down"
-  },
-  "dependencies": {
-    "@portfolio-saas-crm/env": "workspace:*",
-    "dotenv": "catalog:",
-    "drizzle-orm": "^0.45.2",
-    "pg": "^8.22.0",
-    "zod": "catalog:"
-  },
-  "devDependencies": {
-    "@portfolio-saas-crm/config": "workspace:*",
-    "@types/pg": "^8.20.0",
-    "drizzle-kit": "^0.31.10",
-    "typescript": "catalog:"
-  }
+	"name": "@portfolio-saas-crm/db",
+	"type": "module",
+	"exports": {
+		".": {
+			"default": "./src/index.ts"
+		},
+		"./*": {
+			"default": "./src/*.ts"
+		}
+	},
+	"scripts": {
+		"test:unit": "bun test --preload ./src/tests/setup-env.ts src/tests/crm-schema.test.ts src/tests/companies-contacts.test.ts src/tests/deals.test.ts src/tests/tasks-activities.test.ts src/tests/reports.test.ts src/tests/admin-users.test.ts",
+		"test:integration": "bun test --preload ./src/tests/setup-env.ts src/tests/integration",
+		"check-types": "tsc --noEmit",
+		"db:push": "drizzle-kit push",
+		"db:generate": "drizzle-kit generate",
+		"db:studio": "drizzle-kit studio",
+		"db:migrate": "drizzle-kit migrate",
+		"db:start": "docker compose up -d",
+		"db:watch": "docker compose up",
+		"db:stop": "docker compose stop",
+		"db:down": "docker compose down",
+		"db:seed": "bun --preload ./src/seed/load-env.ts ./src/seed/run-seed.ts"
+	},
+	"dependencies": {
+		"@portfolio-saas-crm/env": "workspace:*",
+		"dotenv": "catalog:",
+		"drizzle-orm": "^0.45.2",
+		"pg": "^8.22.0",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@portfolio-saas-crm/auth": "workspace:*",
+		"@portfolio-saas-crm/config": "workspace:*",
+		"@types/pg": "^8.20.0",
+		"drizzle-kit": "^0.31.10",
+		"typescript": "catalog:"
+	}
 }

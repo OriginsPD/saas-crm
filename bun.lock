@@ -101,6 +101,7 @@
         "zod": "catalog:",
       },
       "devDependencies": {
+        "@portfolio-saas-crm/auth": "workspace:*",
         "@portfolio-saas-crm/config": "workspace:*",
         "@types/pg": "^8.20.0",
         "drizzle-kit": "^0.31.10",

@@ -1,9 +1,10 @@
 import { defineConfig } from "tsdown";
 
 export default defineConfig({
-  entry: "./src/index.ts",
-  format: "esm",
-  outDir: "./dist",
-  clean: true,
-  noExternal: [/@portfolio-saas-crm\/.*/],
+	entry: "./src/index.ts",
+	format: "esm",
+	outDir: "./dist",
+	clean: true,
+	dts: false,
+	noExternal: [/@portfolio-saas-crm\/.*/],
 });
