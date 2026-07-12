@@ -1,0 +1,2396 @@
+{
+	"schemaVersion": 1,
+	"generatedAt": "2026-07-12T02:13:01.728Z",
+	"platform": "react",
+	"exampleCount": 199,
+	"examples": [
+		{
+			"slug": "react-accordion",
+			"headline": "Accordion",
+			"description": "An example of an accordion component using Motion for React. Animate accordion content using height: auto and accessible markup. Uses focus events and shared layout animations for keyboard accessibility.",
+			"url": "https://motion.dev/examples/react-accordion",
+			"datePublished": "2025-01-20T00:00:00.000Z",
+			"categories": [
+				"dialog"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-add-to-basket",
+			"headline": "Add to basket",
+			"description": "An example of flying a product into the basket along a curved path with arc() and a spring impact, in Motion for React.",
+			"url": "https://motion.dev/examples/react-add-to-basket",
+			"datePublished": "2026-06-05T00:00:00.000Z",
+			"categories": [
+				"interactions"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-animate-activity",
+			"headline": "AnimateActivity: Slideshow",
+			"description": "An example of using AnimateActivity to create a slideshow.",
+			"url": "https://motion.dev/examples/react-animate-activity",
+			"datePublished": "2025-02-06T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-animate-presence-modes",
+			"headline": "AnimatePresence modes",
+			"description": "An example of the three AnimatePresence modes (sync, wait, and popLayout) demonstrating how elements enter and exit the DOM with Motion for React.",
+			"url": "https://motion.dev/examples/react-animate-presence-modes",
+			"datePublished": "2025-09-24T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-animate-view-app-store",
+			"headline": "AnimateView: App Store",
+			"description": "An example of animating cards inspired by the iOS App Store using AnimateView's shared element transitions from Motion+ for React.",
+			"url": "https://motion.dev/examples/react-animate-view-app-store",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"view"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-animate-view-clip-path",
+			"headline": "AnimateView: Clip path",
+			"description": "An example of using AnimateView with custom clipPath values to create a reveal animation from center outwards using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-animate-view-clip-path",
+			"datePublished": "2026-02-10T00:00:00.000Z",
+			"categories": [
+				"view"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-animate-view-reorder",
+			"headline": "AnimateView: Reorder items",
+			"description": "An example of using AnimateView to animate list items as they reorder, using Motion+ for React's view transition API.",
+			"url": "https://motion.dev/examples/react-animate-view-reorder",
+			"datePublished": "2026-02-10T00:00:00.000Z",
+			"categories": [
+				"view"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-animate-view-toggle",
+			"headline": "AnimateView: Toggle",
+			"description": "An example of using AnimateView to animate a toggle switch with smooth update animations using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-animate-view-toggle",
+			"datePublished": "2026-02-10T00:00:00.000Z",
+			"categories": [
+				"view"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-animate-view-types",
+			"headline": "AnimateView: Transition types",
+			"description": "An example of using AnimateView with addTransitionType to create directional prev/next slideshow animations using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-animate-view-types",
+			"datePublished": "2026-02-10T00:00:00.000Z",
+			"categories": [
+				"view"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-app-store",
+			"headline": "iOS App Store",
+			"description": "An example of animating cards inspired by the iOS App Store using Motion for React's layout animations.",
+			"url": "https://motion.dev/examples/react-app-store",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"layout-animations"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-apple-intelligence",
+			"headline": "Apple Intelligence ripple",
+			"description": "An example of the 'ripple' part of the Apple Intelligence animation using Motion for React. It uses a cloned version of the current content rather than using shaders.",
+			"url": "https://motion.dev/examples/react-apple-intelligence",
+			"datePublished": "2025-04-18T00:00:00.000Z",
+			"categories": [
+				"experimental"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-apple-watch-home-screen",
+			"headline": "Apple Watch Home Screen",
+			"description": "A recreation of the Apple Watch home screen's iconic app grid with fluid drag interactions and dynamic scaling using Motion for React.",
+			"url": "https://motion.dev/examples/react-apple-watch-home-screen",
+			"datePublished": "2025-02-13T00:00:00.000Z",
+			"categories": [
+				"experimental"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-aspect-ratio",
+			"headline": "Aspect ratio",
+			"description": "An example of animating aspect-ratio using Motion for React's layout animations.",
+			"url": "https://motion.dev/examples/react-aspect-ratio",
+			"datePublished": "2025-02-13T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-base-accordion",
+			"headline": "Base UI: Accordion",
+			"description": "An example of creating an accordion component with Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-accordion",
+			"datePublished": "2025-01-31T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-checkbox",
+			"headline": "Base UI: Checkbox",
+			"description": "An example of creating a checkbox with path line animation for the tick using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-checkbox",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-context-menu",
+			"headline": "Base UI: Context menu",
+			"description": "An example of creating a context menu with smooth animations using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-context-menu",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-dialog",
+			"headline": "Base UI: Dialog",
+			"description": "An example of creating a dialog component with overlay and content animations using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-dialog",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-menu",
+			"headline": "Base UI: Dropdown menu",
+			"description": "An example of creating a dropdown menu with smooth animations using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-menu",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-progress",
+			"headline": "Base UI: Progress",
+			"description": "An example of creating a progress component using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-progress",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-radio",
+			"headline": "Base UI: Radio",
+			"description": "An example of creating a radio group component using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-radio",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-select",
+			"headline": "Base UI: Select",
+			"description": "An example of creating a select component using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-select",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-switch",
+			"headline": "Base UI: Switch",
+			"description": "An example of creating a switch component using Base UI and Motion for React. This examples uses CSS variables, spring and layout animations to animate the switch by switching justify-content.",
+			"url": "https://motion.dev/examples/react-base-switch",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-tabs",
+			"headline": "Base UI: Tabs",
+			"description": "An example of creating a tabs component using Base UI and Motion for React. It uses layout animations to animate the height of the container.",
+			"url": "https://motion.dev/examples/react-base-tabs",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-toast",
+			"headline": "Base UI: Toast",
+			"description": "An example of creating a toast component using Base UI and Motion for React. It uses spring animations and AnimatePresence to provide exit animations for the toast dialog.",
+			"url": "https://motion.dev/examples/react-base-toast",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-toggle-group",
+			"headline": "Base UI: Toggle group",
+			"description": "An example of creating a toggle group component using Base UI and Motion for React. It uses shared layout animations and CSS mix blend modes to create an animated selected effect.",
+			"url": "https://motion.dev/examples/react-base-toggle-group",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-base-tooltip",
+			"headline": "Base UI: Tooltip",
+			"description": "An example of creating a tooltip component using Base UI and Motion for React.",
+			"url": "https://motion.dev/examples/react-base-tooltip",
+			"datePublished": "2025-07-30T00:00:00.000Z",
+			"categories": [
+				"base-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-bezier-curve-editor",
+			"headline": "Bezier curve editor",
+			"description": "Motion Studio SDK's bezier curve editor is a controlled, stylable React input with keyboard and touch accessibility.",
+			"url": "https://motion.dev/examples/react-bezier-curve-editor",
+			"datePublished": "2025-12-16T00:00:00.000Z",
+			"categories": [
+				"studio-sdk"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-bobble-hover",
+			"headline": "Bobble hover",
+			"description": "A 3x3 grid of tiles that bobble with a spring when hovered, with the bounce scaled to how fast the pointer was moving, using Motion for React.",
+			"url": "https://motion.dev/examples/react-bobble-hover",
+			"datePublished": "2026-06-02T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-bounce-easing",
+			"headline": "Bounce easing",
+			"description": "An example of creating a bounce custom easing function in Motion for React.",
+			"url": "https://motion.dev/examples/react-bounce-easing",
+			"datePublished": "2025-02-13T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-card-stack",
+			"headline": "Card stack",
+			"description": "An example of creating a swipeable card stack with photos in Motion for React.",
+			"url": "https://motion.dev/examples/react-card-stack",
+			"datePublished": "2025-08-19T00:00:00.000Z",
+			"categories": [
+				"lists"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-carousel",
+			"headline": "Carousel",
+			"description": "An example of creating a carousel using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-autoplay",
+			"headline": "Carousel: Autoplay",
+			"description": "An example of creating an autoplay carousel with a progress bar indicator using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-autoplay",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-coverflow",
+			"headline": "Carousel: Coverflow",
+			"description": "An example of creating a coverflow-style carousel with 3D rotation using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-coverflow",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-free-scroll",
+			"headline": "Carousel: Free scroll",
+			"description": "An example of creating a free-scrolling carousel without snap points using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-free-scroll",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-ios-exposure-slider",
+			"headline": "Carousel: iOS exposure slider",
+			"description": "An example of creating a camera exposure slider interface with animated notches using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-ios-exposure-slider",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"forms"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-item-offset",
+			"headline": "Carousel: Offset-linked animations",
+			"description": "An example of creating a carousel with offset-linked animations using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-item-offset",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-lightbox",
+			"headline": "Carousel: Lightbox",
+			"description": "An example of creating a carousel with lightbox overlay functionality using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-lightbox",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-loop",
+			"headline": "Carousel: Loop",
+			"description": "An example of creating a carousel with infinite scrolling using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-loop",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-pagination-arrows",
+			"headline": "Carousel: Pagination",
+			"description": "An example of creating a carousel with clickable pagination dots and navigation arrows using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-pagination-arrows",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-pagination-page-count",
+			"headline": "Carousel: Pagination with page count",
+			"description": "An example of creating a carousel with pagination indicators that show the current page and total pages using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-pagination-page-count",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-pagination-scaling",
+			"headline": "Carousel: Scaling pagination dots",
+			"description": "An example of creating a carousel with pagination dots that scale down at the edges in Motion for React.",
+			"url": "https://motion.dev/examples/react-carousel-pagination-scaling",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-carousel-parallax",
+			"headline": "Carousel: Parallax",
+			"description": "An example of creating a carousel with a parallax effectusing the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-parallax",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-progress-scrubber",
+			"headline": "Carousel: Progress scrubber",
+			"description": "An example of creating a carousel with a progress scrubber using the Motion+ Carousel component for React.",
+			"url": "https://motion.dev/examples/react-carousel-progress-scrubber",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-rtl",
+			"headline": "Carousel: RTL",
+			"description": "An example of creating a carousel with RTL support using the Motion+ Carousel component for React. The layout of the carousel items is automatically reversed.",
+			"url": "https://motion.dev/examples/react-carousel-rtl",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-thumbnail-gallery",
+			"headline": "Carousel: Thumbnail gallery",
+			"description": "An example of creating a carousel with a thumbnail navigation gallery using the Motion+ Carousel",
+			"url": "https://motion.dev/examples/react-carousel-thumbnail-gallery",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-carousel-vertical",
+			"headline": "Carousel: Vertical",
+			"description": "An example of creating a vertical carousel with navigation in Motion for React.",
+			"url": "https://motion.dev/examples/react-carousel-vertical",
+			"datePublished": "2025-10-17T00:00:00.000Z",
+			"categories": [
+				"carousel"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-characters-remaining",
+			"headline": "Characters remaining",
+			"description": "An example of creating a character counter with spring animations in Motion for React",
+			"url": "https://motion.dev/examples/react-characters-remaining",
+			"datePublished": "2025-03-11T00:00:00.000Z",
+			"categories": [
+				"forms"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-clerk-card-stack",
+			"headline": "Clerk: Card Stack",
+			"description": "The verification step of a custom Clerk flow. Submitting the email stacks a one-time-code card up over the sign-in card, with AnimatePresence popLayout dimming the card behind it.",
+			"url": "https://motion.dev/examples/react-clerk-card-stack",
+			"datePublished": "2026-06-01T00:00:00.000Z",
+			"categories": [
+				"clerk"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-clerk-conditional-field",
+			"headline": "Clerk: Conditional Field",
+			"description": "A password field that animates into a sign-in form only when it's needed. The container animates its measured height with Motion's resize() util while the field fades in.",
+			"url": "https://motion.dev/examples/react-clerk-conditional-field",
+			"datePublished": "2026-06-01T00:00:00.000Z",
+			"categories": [
+				"clerk"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-clerk-sign-in",
+			"headline": "Clerk: Sign-in-or-up",
+			"description": "A complete custom sign-in-or-up flow built with Motion, combining the conditional password field and the card-stack verification step. Wire the same UI to Clerk's useSignIn() and useSignUp() hooks.",
+			"url": "https://motion.dev/examples/react-clerk-sign-in",
+			"datePublished": "2026-06-01T00:00:00.000Z",
+			"categories": [
+				"clerk"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-clerk-user-button",
+			"headline": "Clerk: User Button",
+			"description": "A custom Clerk user button built with Motion. The closed avatar expands into an account menu, using Motion's resize() util to animate the container to the menu's measured height.",
+			"url": "https://motion.dev/examples/react-clerk-user-button",
+			"datePublished": "2026-06-01T00:00:00.000Z",
+			"categories": [
+				"clerk"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-collision-hover-grid",
+			"headline": "Pointer collision detection",
+			"description": "A 20x20 light grid that catches every cell the pointer sweeps, even on a fast flick, using swept collision detection in Motion for React.",
+			"url": "https://motion.dev/examples/react-collision-hover-grid",
+			"datePublished": "2026-06-03T00:00:00.000Z",
+			"categories": [
+				"interactions"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-color-interpolation",
+			"headline": "Color interpolation",
+			"description": "A comparison of color interpolation between Motion and the browser's native interpolation. Motion uses linear RGB color space, which avoids the dimming effect suffered by browser interpolation.",
+			"url": "https://motion.dev/examples/react-color-interpolation",
+			"datePublished": "2025-02-21T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-color-picker",
+			"headline": "Color picker",
+			"description": "An example of creating a circular color picker with dots that react to cursor movement with soft springs using Motion for React.",
+			"url": "https://motion.dev/examples/react-color-picker",
+			"datePublished": "2025-11-25T00:00:00.000Z",
+			"categories": [
+				"forms"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-command-palette",
+			"headline": "Command Palette",
+			"description": "A ⌘K-style command palette with spring-animated entrance, filtered search, and keyboard navigation",
+			"url": "https://motion.dev/examples/react-command-palette",
+			"datePublished": "2026-03-12T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-confetti",
+			"headline": "Confetti",
+			"description": "Celebratory confetti particle explosion triggered by a button press, with spring-driven button feedback and randomised particle physics",
+			"url": "https://motion.dev/examples/react-confetti",
+			"datePublished": "2026-03-04T00:00:00.000Z",
+			"categories": [
+				"buttons"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-conic-gradient-pointer",
+			"headline": "Conic gradient pointer",
+			"description": "An example of creating a dynamic conic gradient with motion values and pointer position.",
+			"url": "https://motion.dev/examples/react-conic-gradient-pointer",
+			"datePublished": "2025-02-13T00:00:00.000Z",
+			"categories": [
+				"experimental"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-context-menu",
+			"headline": "Context Menu",
+			"description": "A custom context menu with submenus, diagonal safe-zone cone, and spring animations using Motion for React.",
+			"url": "https://motion.dev/examples/react-context-menu",
+			"datePublished": "2026-03-03T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-copy-button",
+			"headline": "Copy Button",
+			"description": "Animated copy-to-clipboard button with icon swap, blur transitions, and pathLength checkmark draw",
+			"url": "https://motion.dev/examples/react-copy-button",
+			"datePublished": "2026-03-08T00:00:00.000Z",
+			"categories": [
+				"buttons"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-create-button",
+			"headline": "Create Button",
+			"description": "A create button that expands into a grid menu using shared layout animations and clip-path transitions",
+			"url": "https://motion.dev/examples/react-create-button",
+			"datePublished": "2026-03-06T00:00:00.000Z",
+			"categories": [
+				"layout-animations"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-css-spring",
+			"headline": "CSS spring",
+			"description": "An example of generating a spring animation in CSS using Motion's spring function.",
+			"url": "https://motion.dev/examples/react-css-spring",
+			"datePublished": "2025-01-13T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-cursor",
+			"headline": "Cursor: Adaptive caret size",
+			"description": "An example of Motion+ Cursor with default settings. Motion+ Cursor is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-cursor",
+			"datePublished": "2024-12-18T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-cursor-custom-content",
+			"headline": "Cursor: Custom content",
+			"description": "An example of adding custom content to Motion+ Cursor when hovering over a specific element. Motion+ Cursor is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-cursor-custom-content",
+			"datePublished": "2024-12-19T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-cursor-floating-target",
+			"headline": "Cursor: Floating target",
+			"description": "An example of creating a floating target with rotating text and hover effects using the Motion+ Cursor and usePointerPosition.",
+			"url": "https://motion.dev/examples/react-cursor-floating-target",
+			"datePublished": "2025-08-21T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-cursor-follow",
+			"headline": "Cursor: Follow",
+			"description": "An example of making an element follow the cursor with a spring animation using Motion+ Cursor. Motion+ Cursor is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-cursor-follow",
+			"datePublished": "2024-12-19T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-cursor-hover-follow",
+			"headline": "Cursor: Image hover",
+			"description": "An example of a cursor image hover effect using Motion for React. It links skewX and skewY to the cursor velocity, smoothed via useSpring.",
+			"url": "https://motion.dev/examples/react-cursor-hover-follow",
+			"datePublished": "2025-03-28T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-cursor-magnetic",
+			"headline": "Cursor: Magnetic target",
+			"description": "An example of Motion+ Cursor with magnetic target snapping enabled. Motion+ Cursor is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-cursor-magnetic",
+			"datePublished": "2025-05-12T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-cursor-multifollow",
+			"headline": "Cursor: Multi-follow",
+			"description": "An example of attaching multiple elements to follow the cursor at the same time, all with different spring animations. Motion+ Cursor is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-cursor-multifollow",
+			"datePublished": "2024-12-19T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-cursor-trail",
+			"headline": "Cursor trail",
+			"description": "An example of creating a cursor trail with images in Motion for React.",
+			"url": "https://motion.dev/examples/react-cursor-trail",
+			"datePublished": "2025-08-01T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-cursor-trail-velocity",
+			"headline": "Cursor trail velocity",
+			"description": "An example of creating a cursor trail with velocity-based inertia animations in Motion for React.",
+			"url": "https://motion.dev/examples/react-cursor-trail-velocity",
+			"datePublished": "2025-08-01T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-curtains-blinds",
+			"headline": "Curtains: Blinds",
+			"description": "An example of running a page transition with the blinds curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-blinds",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-clip-wipe",
+			"headline": "Curtains: Clip wipe",
+			"description": "An example of running a page transition with the clipWipe curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-clip-wipe",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-doors",
+			"headline": "Curtains: Doors",
+			"description": "An example of running a page transition with the doors curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-doors",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-fade",
+			"headline": "Curtains: Fade",
+			"description": "An example of running a page transition with the fade curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-fade",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-iris",
+			"headline": "Curtains: Iris",
+			"description": "An example of running a page transition with the iris curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-iris",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-iris-click",
+			"headline": "Curtains: Iris from click",
+			"description": "An example of growing a curtains iris page transition from the pointer position using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-iris-click",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-mixed",
+			"headline": "Curtains: Mixed effects",
+			"description": "An example of mixing a different cover and reveal effect in a curtains page transition using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-mixed",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-pixels",
+			"headline": "Curtains: Pixels",
+			"description": "An example of running a page transition with the pixels curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-pixels",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-scope",
+			"headline": "Curtains: Scope",
+			"description": "An example of scoping a curtains page transition to a single element using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-scope",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-shutter",
+			"headline": "Curtains: Shutter",
+			"description": "An example of running a page transition with the shutter curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-shutter",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-stagger-wipe",
+			"headline": "Curtains: Stagger wipe",
+			"description": "An example of running a page transition with the staggerWipe curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-stagger-wipe",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-curtains-wipe",
+			"headline": "Curtains: Wipe",
+			"description": "An example of running a page transition with the wipe curtains effect using Motion+ for React.",
+			"url": "https://motion.dev/examples/react-curtains-wipe",
+			"datePublished": "2026-06-10T00:00:00.000Z",
+			"categories": [
+				"page-transitions"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-dots-morph-button",
+			"headline": "Dots Morph Button",
+			"description": "A button where four dots morph into crossing lines with a spring-animated SVG path transition",
+			"url": "https://motion.dev/examples/react-dots-morph-button",
+			"datePublished": "2026-03-06T00:00:00.000Z",
+			"categories": [
+				"buttons"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-drag",
+			"headline": "Drag",
+			"description": "An example of making an element draggable using Motion for React's drag prop.",
+			"url": "https://motion.dev/examples/react-drag",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-drag-constraints",
+			"headline": "Drag: Constraints",
+			"description": "An example of making an element draggable using Motion for React's drag prop. You can even set drag constraints by providing a ref to another element.",
+			"url": "https://motion.dev/examples/react-drag-constraints",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-drag-lock-direction",
+			"headline": "Drag: Lock direction",
+			"description": "An example of locking the drag direction of an element based on its initial drag direction using Motion for React's dragDirectionLock prop.",
+			"url": "https://motion.dev/examples/react-drag-lock-direction",
+			"datePublished": "2025-02-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-enter-animation",
+			"headline": "Enter animation",
+			"description": "An example of animating an element when it's added to the DOM using Motion for React.",
+			"url": "https://motion.dev/examples/react-enter-animation",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-exit-animation",
+			"headline": "Exit animation",
+			"description": "An example of animating an element when it's removed from the DOM using AnimatePresence in Motion for React.",
+			"url": "https://motion.dev/examples/react-exit-animation",
+			"datePublished": "2024-12-19T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-family-dialog",
+			"headline": "Family-style dialog",
+			"description": "Family-style dialog using Motion for React. It uses the HTML dialog and Motion's shared layout animations.",
+			"url": "https://motion.dev/examples/react-family-dialog",
+			"datePublished": "2025-04-14T00:00:00.000Z",
+			"categories": [
+				"dialog"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-floating-action-button",
+			"headline": "Floating Action Button",
+			"description": "A FAB that expands into a staggered vertical menu of action items with spring animations and tooltip labels",
+			"url": "https://motion.dev/examples/react-floating-action-button",
+			"datePublished": "2026-03-05T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-follow-pointer-with-spring",
+			"headline": "Follow pointer with spring",
+			"description": "An example of making an element follow the pointer with a spring using Motion for React's useSpring hook.",
+			"url": "https://motion.dev/examples/react-follow-pointer-with-spring",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-gestures",
+			"headline": "Gestures",
+			"description": "An example of using gestures to animate an element using Motion for React's simple whileTap and whileHover props.",
+			"url": "https://motion.dev/examples/react-gestures",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-hero-stagger",
+			"headline": "OSS Hero",
+			"description": "Open source project hero with staggered spring entrance animations",
+			"url": "https://motion.dev/examples/react-hero-stagger",
+			"datePublished": "2026-03-11T00:00:00.000Z",
+			"categories": [
+				"heros"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-hold-to-confirm",
+			"headline": "Hold to confirm",
+			"description": "A Motion for React example showing long-press interaction. The button's events update a progress motion value that drives multiple animations of other motion values.",
+			"url": "https://motion.dev/examples/react-hold-to-confirm",
+			"datePublished": "2025-03-12T00:00:00.000Z",
+			"categories": [
+				"buttons"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-html-content",
+			"headline": "HTML content",
+			"description": "An example using Motion for React to animate HTML content by rendering a MotionValue.",
+			"url": "https://motion.dev/examples/react-html-content",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-image-reveal-slider",
+			"headline": "Image reveal slider",
+			"description": "An example of creating an interactive image comparison slider with Motion for React.",
+			"url": "https://motion.dev/examples/react-image-reveal-slider",
+			"datePublished": "2025-02-21T00:00:00.000Z",
+			"categories": [
+				"interactions"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-infinite-loading",
+			"headline": "Infinite loading",
+			"description": "An example of creating an infinite loading list with staggered animations in Motion for React.",
+			"url": "https://motion.dev/examples/react-infinite-loading",
+			"datePublished": "2025-07-28T00:00:00.000Z",
+			"categories": [
+				"lists"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-ios-app-folder",
+			"headline": "iOS App Folder",
+			"description": "An iOS-style app folder that expands to reveal apps inside, using Motion for React's layout animations and AnimatePresence.",
+			"url": "https://motion.dev/examples/react-ios-app-folder",
+			"datePublished": "2026-01-14T00:00:00.000Z",
+			"categories": [
+				"layout-animations"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-ios-pointer",
+			"headline": "iOS pointer animation",
+			"description": "An example of making the iOS pointer animation using Motion+ Cursor's magnetic snapping. Motion+ Cursor is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-ios-pointer",
+			"datePublished": "2025-05-12T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ios-slider",
+			"headline": "iOS slider",
+			"description": "An example of recreating the iOS slider using Motion for React. This example uses useTransform to map input to slider state, and slider state to pull, squish and squash animations. It uses React'setModal onFocus and onBlur to set up keyboard-accessible inputs, with Motion's whileFocus prop to animate a custom focus indicator.",
+			"url": "https://motion.dev/examples/react-ios-slider",
+			"datePublished": "2025-01-20T00:00:00.000Z",
+			"categories": [
+				"forms"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-keyframes",
+			"headline": "Keyframes",
+			"description": "An example of animating an element using keyframes with Motion for React.",
+			"url": "https://motion.dev/examples/react-keyframes",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-keyframes-wildcards",
+			"headline": "Keyframe wildcards",
+			"description": "An example of using Motion for React's keyframe wildcards to create interruptible keyframe animations. ",
+			"url": "https://motion.dev/examples/react-keyframes-wildcards",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-layout-anchor",
+			"headline": "Layout Anchor",
+			"description": "Control which point on a child element stays fixed during a parent's layout animation with layoutAnchor",
+			"url": "https://motion.dev/examples/react-layout-anchor",
+			"datePublished": "2026-03-17T00:00:00.000Z",
+			"categories": [
+				"layout-animations"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-layout-animation",
+			"headline": "Layout animation",
+			"description": "An example of animating a layout change using Motion for React's simple layout prop.",
+			"url": "https://motion.dev/examples/react-layout-animation",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-line-graph",
+			"headline": "Line graph",
+			"description": "An SVG line graph that uses Cursor and AnimateNumber to display changes in data points as an animated cursor annotation.",
+			"url": "https://motion.dev/examples/react-line-graph",
+			"datePublished": "2025-02-19T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-loading-circle-spinner",
+			"headline": "Loading: Circle spinner",
+			"description": "An example of creating a circle spinner loading animation with Motion for React.",
+			"url": "https://motion.dev/examples/react-loading-circle-spinner",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-loading-fill-text",
+			"headline": "Fill text",
+			"description": "An example of creating a text fill loading animation with Motion for React.",
+			"url": "https://motion.dev/examples/react-loading-fill-text",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-loading-jumping-dots",
+			"headline": "Loading: Jumping dots",
+			"description": "An example of creating a jumping dots loading animation with Motion for React.",
+			"url": "https://motion.dev/examples/react-loading-jumping-dots",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-loading-line-reveal",
+			"headline": "Loading overlay",
+			"description": "An example of creating a line reveal loading animation with clipPath in Motion for React",
+			"url": "https://motion.dev/examples/react-loading-line-reveal",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-loading-progress-bar",
+			"headline": "Loading progress bar",
+			"description": "An example of creating a progress bar loading animation with Motion for React.",
+			"url": "https://motion.dev/examples/react-loading-progress-bar",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-loading-ripple",
+			"headline": "Loading ripple",
+			"description": "An example of creating a ripple loading animation with Motion for React.",
+			"url": "https://motion.dev/examples/react-loading-ripple",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-loading-three-dots-pulse",
+			"headline": "Loading: Pulse dots",
+			"description": "An example of creating a pulsing dots loading animation with Motion for React.",
+			"url": "https://motion.dev/examples/react-loading-three-dots-pulse",
+			"datePublished": "2025-03-04T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-magnetic-filings",
+			"headline": "Magnetic filings",
+			"description": "An example of creating a grid of metal filings that rotate to point towards the cursor position using Motion for React.",
+			"url": "https://motion.dev/examples/react-magnetic-filings",
+			"datePublished": "2025-08-05T00:00:00.000Z",
+			"categories": [
+				"cursor"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-material-design-ripple",
+			"headline": "Material Design: Ripple",
+			"description": "An example of creating a press ripple with Motion for React, inspired by Google Material Design.",
+			"url": "https://motion.dev/examples/react-material-design-ripple",
+			"datePublished": "2025-08-16T00:00:00.000Z",
+			"categories": [
+				"buttons"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-mega-menu",
+			"headline": "Mega Menu",
+			"description": "Animated navigation menu with sliding indicator, spring-driven dropdown, and staggered column reveals",
+			"url": "https://motion.dev/examples/react-mega-menu",
+			"datePublished": "2026-03-02T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-modal",
+			"headline": "Modal dialog",
+			"description": "An example of a modal dialog using Motion for React and the HTML <dialog /> element. This example uses a custom useDialog hook to manage React's declarative API with the dialog HTML element's imperative setModal and close API. It also provides a useClickOutside hook to check when the document has been clicked outside the modal dialog to close it.",
+			"url": "https://motion.dev/examples/react-modal",
+			"datePublished": "2025-01-18T00:00:00.000Z",
+			"categories": [
+				"dialog"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-modal-shared-layout",
+			"headline": "Modal: Shared layout",
+			"description": "A modal example demonstrating shared layout animations between a grid of items and a fullscreen modal using Motion for React.",
+			"url": "https://motion.dev/examples/react-modal-shared-layout",
+			"datePublished": "2025-02-14T00:00:00.000Z",
+			"categories": [
+				"dialog"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-motion-path",
+			"headline": "Motion along a path",
+			"description": "An example of animating an element along a path using Motion for React.",
+			"url": "https://motion.dev/examples/react-motion-path",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-multi-state-badge",
+			"headline": "Multi state badge",
+			"description": "A badge that can be in multiple states, such as processing, success, or error.",
+			"url": "https://motion.dev/examples/react-multi-state-badge",
+			"datePublished": "2025-03-10T00:00:00.000Z",
+			"categories": [
+				"buttons"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-multifollow-pointer-with-spring",
+			"headline": "Drag with spring follow",
+			"description": "An example of making multiple elements follow the pointer on drag, using Motion for React's useSpring hook.",
+			"url": "https://motion.dev/examples/react-multifollow-pointer-with-spring",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-notifications-list",
+			"headline": "Toast: Notifications list",
+			"description": "An example of animating a list of animations as they're added and removed, using Motion for React's layout animations.",
+			"url": "https://motion.dev/examples/react-notifications-list",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"layout-animations"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-notifications-stack",
+			"headline": "iOS Notifications stack",
+			"description": "A iOS inspired notifications stack using Motion for React's variants.",
+			"url": "https://motion.dev/examples/react-notifications-stack",
+			"datePublished": "2025-01-07T00:00:00.000Z",
+			"categories": [
+				"interactions"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-number-counter",
+			"headline": "Number counter",
+			"description": "An example of using AnimateNumber to animate numbers. AnimateNumber is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-number-counter",
+			"datePublished": "2025-01-27T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-number-engagement-stats",
+			"headline": "Engagement stats",
+			"description": "An example of using AnimateNumber to animate numbers on a social media engagement bar. AnimateNumber is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-number-engagement-stats",
+			"datePublished": "2025-01-27T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-number-formatting",
+			"headline": "Number formatting",
+			"description": "An example of AnimateNumber's formatting options, including currency, rounding, and more. AnimateNumber is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-number-formatting",
+			"datePublished": "2025-01-28T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-number-price-switcher",
+			"headline": "Price switcher",
+			"description": "An example of using AnimateNumber to animate a price between monthly and yearly. AnimateNumber is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-number-price-switcher",
+			"datePublished": "2025-01-28T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-number-radix-slider",
+			"headline": "Radix: Slider with AnimateNumber",
+			"description": "An example of using AnimateNumber and Radix Slider to animate numbers to label a slider input. AnimateNumber is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-number-radix-slider",
+			"datePublished": "2025-01-27T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-number-trend",
+			"headline": "Number trend",
+			"description": "An example of using AnimateNumber's trend prop to control spin direction. AnimateNumber is exclusive to Motion+ members.",
+			"url": "https://motion.dev/examples/react-number-trend",
+			"datePublished": "2026-02-24T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-parallax",
+			"headline": "Parallax",
+			"description": "Scroll-linked parallax effect where background images move at a different speed to foreground content, creating a sense of depth.",
+			"url": "https://motion.dev/examples/react-parallax",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-path-drawing",
+			"headline": "Path drawing",
+			"description": "An example of animating a SVG path to make a path drawing effect, using Motion for React.",
+			"url": "https://motion.dev/examples/react-path-drawing",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-path-morphing",
+			"headline": "Path morphing",
+			"description": "An example of creating smooth SVG path morphing animations with Motion for React.",
+			"url": "https://motion.dev/examples/react-path-morphing",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-pokopia-modal",
+			"headline": "Pokopia: Modal",
+			"description": "A game UI modal entrance animation inspired by Pokopia, built with Motion for React.",
+			"url": "https://motion.dev/examples/react-pokopia-modal",
+			"datePublished": "2026-03-13T00:00:00.000Z",
+			"categories": [
+				"game-ui"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radial-menu",
+			"headline": "Radial Menu",
+			"description": "A circular radial menu where options fan out from a central button with staggered spring animations.",
+			"url": "https://motion.dev/examples/react-radial-menu",
+			"datePublished": "2026-03-05T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-accordion",
+			"headline": "Radix: Accordion",
+			"description": "An accordion component with smooth height animations using Radix UI and Motion",
+			"url": "https://motion.dev/examples/react-radix-accordion",
+			"datePublished": "2025-01-31T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-checkbox",
+			"headline": "Radix: Checkbox",
+			"description": "A checkbox with path line animation for the tick using Radix UI and Motion",
+			"url": "https://motion.dev/examples/react-radix-checkbox",
+			"datePublished": "2025-01-31T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-context-menu",
+			"headline": "Radix: Context Menu",
+			"description": "A context menu with smooth animations using Radix UI and Motion. Note: This example doesn't use AnimatePresence to add exit animations because ContextMenu.Root doesn't support controlled state. We need access to this state for AnimatePresence to conditionally render the children.",
+			"url": "https://motion.dev/examples/react-radix-context-menu",
+			"datePublished": "2025-01-31T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-dialog",
+			"headline": "Radix: Dialog",
+			"description": "A dialog component with overlay and content animations using Radix UI and Motion",
+			"url": "https://motion.dev/examples/react-radix-dialog",
+			"datePublished": "2025-01-31T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-dropdown",
+			"headline": "Radix: Dropdown Menu",
+			"description": "A dropdown menu with smooth animations using Radix UI and Motion",
+			"url": "https://motion.dev/examples/react-radix-dropdown",
+			"datePublished": "2025-01-31T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-progress",
+			"headline": "Radix: Progress",
+			"description": "An example of animating the Radix Progress component using Motion for React.",
+			"url": "https://motion.dev/examples/react-radix-progress",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-radio-group",
+			"headline": "Radix: Radio Group",
+			"description": "An example of animating the Radix Radio Group component using Motion for React.",
+			"url": "https://motion.dev/examples/react-radix-radio-group",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-select",
+			"headline": "Radix: Select",
+			"description": "An example of animating the Radix Select component using Motion for React. Note that because Select doesn't support forceMount, it's impossible to create exit animations on select.",
+			"url": "https://motion.dev/examples/react-radix-select",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-switch",
+			"headline": "Radix: Switch",
+			"description": "An example of animating the Radix Switch component using Motion for React. This examples uses CSS variables, spring and layout animations to animate the switch by switching justify-content.",
+			"url": "https://motion.dev/examples/react-radix-switch",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-tabs",
+			"headline": "Radix: Tabs",
+			"description": "An example of animating the Radix Tabs component using Motion for React. It uses layout animations to animate the height of the container.",
+			"url": "https://motion.dev/examples/react-radix-tabs",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-toast",
+			"headline": "Radix: Toast",
+			"description": "An example of animating the Radix Toast component using Motion for React. It uses spring animations and AnimatePresence to provide exit animations for the toast dialog.",
+			"url": "https://motion.dev/examples/react-radix-toast",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-toggle-group",
+			"headline": "Radix: Toggle Group",
+			"description": "An example of animating the Radix Toggle Group component using Motion for React. It uses shared layout animations and CSS mix blend modes to create an animated selected effect.",
+			"url": "https://motion.dev/examples/react-radix-toggle-group",
+			"datePublished": "2025-01-30T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-toolbar",
+			"headline": "Radix: Toolbar",
+			"description": "An example of animating the Radix Toolbar component using Motion for React. The Radix toolbar can be tabbed to, with using arrow keys to move between items.",
+			"url": "https://motion.dev/examples/react-radix-toolbar",
+			"datePublished": "2025-01-28T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-radix-tooltip",
+			"headline": "Radix: Tooltip",
+			"description": "An example of animating the Radix Tooltip component using Motion for React.",
+			"url": "https://motion.dev/examples/react-radix-tooltip",
+			"datePublished": "2025-01-28T00:00:00.000Z",
+			"categories": [
+				"radix"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-reorder-items",
+			"headline": "Reorder animation",
+			"description": "An example of animating when items are reordered, using Motion for React's layout prop.",
+			"url": "https://motion.dev/examples/react-reorder-items",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-rotate",
+			"headline": "Rotate",
+			"description": "An example of animation the rotation of an element with Motion for React",
+			"url": "https://motion.dev/examples/react-rotate",
+			"datePublished": "2024-12-15T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-scramble-text",
+			"headline": "Scramble text",
+			"description": "Text that scrambles through random characters when transitioning between words using the ScrambleText component.",
+			"url": "https://motion.dev/examples/react-scramble-text",
+			"datePublished": "2026-01-27T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scramble-text-hover",
+			"headline": "Scramble text: Hover",
+			"description": "Text that scrambles through random characters on hover using the ScrambleText component.",
+			"url": "https://motion.dev/examples/react-scramble-text-hover",
+			"datePublished": "2026-01-27T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scramble-text-stagger-center",
+			"headline": "Scramble text: Stagger from center",
+			"description": "Text that scrambles from the center outward on hover using ScrambleText with stagger delay.",
+			"url": "https://motion.dev/examples/react-scramble-text-stagger-center",
+			"datePublished": "2026-01-27T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-container",
+			"headline": "Element scroll-linked animation",
+			"description": "An example of a scroll-linked animation using a specific element's scroll position using Motion for React's useScroll hook.",
+			"url": "https://motion.dev/examples/react-scroll-container",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-scroll-hide-header",
+			"headline": "Scroll Direction: Hide Header",
+			"description": "A sticky header that hides when scrolling down and reappears when scrolling up. Uses useMotionValueEvent to detect scroll direction.",
+			"url": "https://motion.dev/examples/react-scroll-hide-header",
+			"datePublished": "2026-01-29T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-highlight",
+			"headline": "Scroll highlight",
+			"description": "An example of creating a scrollable list of items where the item in the center of the view is highlighted, using the `useInView` hook and the `animate` function in Motion for React.",
+			"url": "https://motion.dev/examples/react-scroll-highlight",
+			"datePublished": "2025-07-14T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-horizontal",
+			"headline": "Scroll Horizontal Gallery",
+			"description": "A horizontal gallery that scrolls sideways as you scroll down. Uses sticky positioning with scroll-linked x translation.",
+			"url": "https://motion.dev/examples/react-scroll-horizontal",
+			"datePublished": "2026-01-29T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-image-reveal",
+			"headline": "Scroll Image Reveal",
+			"description": "Images reveal with a clip-path curtain effect as you scroll. Uses useScroll with element targeting and useTransform for clipPath and scale.",
+			"url": "https://motion.dev/examples/react-scroll-image-reveal",
+			"datePublished": "2026-01-29T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-linked",
+			"headline": "Scroll-linked animations",
+			"description": "An example of linking an animation to scroll using Motion for React's useScroll hook.",
+			"url": "https://motion.dev/examples/react-scroll-linked",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-scroll-linked-with-spring",
+			"headline": "Scroll-linked spring animation",
+			"description": "An example of linking an animation to scroll using Motion for React's useScroll hook and smoothing it with useSpring.",
+			"url": "https://motion.dev/examples/react-scroll-linked-with-spring",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-scroll-text-lines",
+			"headline": "Scroll Text Lines",
+			"description": "Editorial-style text effect with multiple lines moving horizontally at different speeds as you scroll. Uses Ticker for seamless infinite text.",
+			"url": "https://motion.dev/examples/react-scroll-text-lines",
+			"datePublished": "2026-01-29T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-track-element-in-viewport",
+			"headline": "Track element within viewport",
+			"description": "An example of tracking an element within the viewport using Motion for React's useScroll hook.",
+			"url": "https://motion.dev/examples/react-scroll-track-element-in-viewport",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-scroll-triggered",
+			"headline": "Scroll-triggered animations",
+			"description": "An example of triggering an animation when an element enters or leaves the viewport using Motion for React's whileInView prop.",
+			"url": "https://motion.dev/examples/react-scroll-triggered",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-scroll-velocity-linked-offset",
+			"headline": "Scroll velocity: 3D planes",
+			"description": "A 3D carousel with scroll velocity-linked wave effect using Motion for React.",
+			"url": "https://motion.dev/examples/react-scroll-velocity-linked-offset",
+			"datePublished": "2026-01-27T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-scroll-zoom-hero",
+			"headline": "Scroll Zoom Hero",
+			"description": "An immersive hero section where the background image scales up, blurs, and fades as you scroll. Creates a dramatic entry effect.",
+			"url": "https://motion.dev/examples/react-scroll-zoom-hero",
+			"datePublished": "2026-01-29T00:00:00.000Z",
+			"categories": [
+				"scroll"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-shared-layout-animation",
+			"headline": "Shared layout animation",
+			"description": "An example of a shared layout animation, where two elements are animated from one to the other, using Motion for React's simple layoutId prop.",
+			"url": "https://motion.dev/examples/react-shared-layout-animation",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-sheet-modal",
+			"headline": "Sheet Modal",
+			"description": "A draggable bottom sheet with spring physics, staggered content animations, and swipe-to-dismiss.",
+			"url": "https://motion.dev/examples/react-sheet-modal",
+			"datePublished": "2026-03-04T00:00:00.000Z",
+			"categories": [
+				"overlays"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-skeleton-shimmer",
+			"headline": "Skeleton Shimmer",
+			"description": "Skeleton loading placeholders with a shimmer effect that transitions to revealed content using AnimateView. Skeleteons are sized using placeholder data to reduce layout shifts.",
+			"url": "https://motion.dev/examples/react-skeleton-shimmer",
+			"datePublished": "2026-03-09T00:00:00.000Z",
+			"categories": [
+				"loading"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-smooth-tabs",
+			"headline": "Smooth Tabs",
+			"description": "Segmented control with sliding indicator and directional content transitions",
+			"url": "https://motion.dev/examples/react-smooth-tabs",
+			"datePublished": "2025-01-20T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-split-text",
+			"headline": "Split text",
+			"description": "An example of creating a text reveal animation with split text in Motion for React",
+			"url": "https://motion.dev/examples/react-split-text",
+			"datePublished": "2025-03-13T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-split-text-scatter",
+			"headline": "Scatter text",
+			"description": "An example of creating a scatter text animation with split text in Motion for React",
+			"url": "https://motion.dev/examples/react-split-text-scatter",
+			"datePublished": "2025-03-13T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-split-text-wavy",
+			"headline": "Wavy text",
+			"description": "An example of creating a wavy text animation with split text in Motion for React",
+			"url": "https://motion.dev/examples/react-split-text-wavy",
+			"datePublished": "2025-03-13T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-staggered-grid",
+			"headline": "Physical stagger",
+			"description": "An example of animating elements with a delay staggered by physical distance.",
+			"url": "https://motion.dev/examples/react-staggered-grid",
+			"datePublished": "2025-03-03T00:00:00.000Z",
+			"categories": [
+				"lists"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-state-updates",
+			"headline": "Animate state",
+			"description": "An example of animating in response to state changes using Motion for React.",
+			"url": "https://motion.dev/examples/react-state-updates",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-swipe-actions",
+			"headline": "Swipe actions",
+			"description": "iOS-style swipe actions where UI elements and animations respond dynamically to swipe progress. Actions trigger via taps or full swipes (for primary actions). A modern, space-efficient alternative to dropdown menus that keeps actions hidden behind the main item until revealed by a swipe gesture.",
+			"url": "https://motion.dev/examples/react-swipe-actions",
+			"datePublished": "2025-01-28T00:00:00.000Z",
+			"categories": [
+				"interactions"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-tab-select",
+			"headline": "Tab select",
+			"description": "An example of using making a tab select component with Motion for React's shared layout animations. Because it uses onTap and whileFocus, it's keyboard-accessible by default. Try tabbing between the options and hitting Enter.",
+			"url": "https://motion.dev/examples/react-tab-select",
+			"datePublished": "2025-01-16T00:00:00.000Z",
+			"categories": [
+				"navigation"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-text-reveal",
+			"headline": "Reveal text effect",
+			"description": "An example of revealing text on hover using flexbox and Motion for React's layout animations.",
+			"url": "https://motion.dev/examples/react-text-reveal",
+			"datePublished": "2025-02-04T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-ticker",
+			"headline": "Ticker",
+			"description": "An example of an animated list of items using the Motion+ Ticker component for React.",
+			"url": "https://motion.dev/examples/react-ticker",
+			"datePublished": "2025-06-04T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-cursor",
+			"headline": "Ticker: Cursor",
+			"description": "An example of creating a custom cursor that combines the Motion+ Ticker and Cursor components.",
+			"url": "https://motion.dev/examples/react-ticker-cursor",
+			"datePublished": "2025-06-03T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-draggable",
+			"headline": "Ticker: Draggable",
+			"description": "An example of an draggable list of items using the Motion+ Ticker component for React.",
+			"url": "https://motion.dev/examples/react-ticker-draggable",
+			"datePublished": "2025-06-04T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-overflow",
+			"headline": "Ticker: Overflow",
+			"description": "An example of an animated list of items using the Motion+ Ticker component for React. This example sets the overflow prop, which allows the ticker items to visually extend outside their layout. This makes it easier to embed a ticker within a longer document, but have the ticker effect extend out to the edges of the screen.",
+			"url": "https://motion.dev/examples/react-ticker-overflow",
+			"datePublished": "2025-07-02T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-rtl",
+			"headline": "Ticker: RTL",
+			"description": "An example of Motion+ Ticker component for React with RTL support.",
+			"url": "https://motion.dev/examples/react-ticker-rtl",
+			"datePublished": "2025-10-13T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-scroll",
+			"headline": "Ticker: Scroll",
+			"description": "An example of a scroll-driven ticker animation Motion+ Ticker component for React.",
+			"url": "https://motion.dev/examples/react-ticker-scroll",
+			"datePublished": "2025-06-04T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-text-hover-effect",
+			"headline": "Ticker: Text hover effect",
+			"description": "An example of creating a text hover effect that replaces the label with a live ticker, using Motion+ Ticker.",
+			"url": "https://motion.dev/examples/react-ticker-text-hover-effect",
+			"datePublished": "2025-06-03T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-use-ticker-item",
+			"headline": "Ticker: useTickerItem",
+			"description": "An example of animating ticker items based on their current offset using the Motion+ Ticker's useTickerItem hook for React.",
+			"url": "https://motion.dev/examples/react-ticker-use-ticker-item",
+			"datePublished": "2025-06-04T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-ticker-y-axis",
+			"headline": "Ticker: Vertical scrolling",
+			"description": "An example of a vertical scrolling ticker using the Motion+ Ticker component for React.",
+			"url": "https://motion.dev/examples/react-ticker-y-axis",
+			"datePublished": "2025-06-04T00:00:00.000Z",
+			"categories": [
+				"ticker"
+			],
+			"access": "motion-plus",
+			"reuseTier": "interaction-reference-only"
+		},
+		{
+			"slug": "react-tilt-card",
+			"headline": "Tilt card",
+			"description": "A card that tilts based on pointer position using Motion for React's useSpring hook.",
+			"url": "https://motion.dev/examples/react-tilt-card",
+			"datePublished": "2025-02-27T00:00:00.000Z",
+			"categories": [
+				"interactions"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-toast-stack",
+			"headline": "Toast: Stacked notifications",
+			"description": "Stacked toast notifications that use 3D-style transforms and opacity to push back into a visual stack, with AnimatePresence for enter/exit.",
+			"url": "https://motion.dev/examples/react-toast-stack",
+			"datePublished": "2026-03-06T00:00:00.000Z",
+			"categories": [
+				"overlays"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-todo-list",
+			"headline": "To-do list",
+			"description": "A draggable to-do list with animated checkboxes and strikethrough effects using Motion for React's Reorder component.",
+			"url": "https://motion.dev/examples/react-todo-list",
+			"datePublished": "2026-01-09T00:00:00.000Z",
+			"categories": [
+				"lists"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-transition",
+			"headline": "Transition options",
+			"description": "An example of setting transition options in Motion for React.",
+			"url": "https://motion.dev/examples/react-transition",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-typewriter",
+			"headline": "Typewriter",
+			"description": "An example of a React typewriter animation using Motion for React's Typewriter component.",
+			"url": "https://motion.dev/examples/react-typewriter",
+			"datePublished": "2025-01-17T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-typewriter-change-content",
+			"headline": "Typewriter: Change Content",
+			"description": "An example of a typewriter animation using Motion for React's Typewriter component. In this demo, when the content changes, the Typewriter uses a natural typing animation to animate to the latest value.",
+			"url": "https://motion.dev/examples/react-typewriter-change-content",
+			"datePublished": "2025-01-17T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-typewriter-explode",
+			"headline": "Typewriter: Exploding Countdown",
+			"description": "An example of a typewriter animation using Motion for React's Typewriter component. In this demo, the Typewriter uses a natural typing animation to animate to the latest value, and then explodes the text using splitText.",
+			"url": "https://motion.dev/examples/react-typewriter-explode",
+			"datePublished": "2025-07-23T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-typewriter-natural-typing",
+			"headline": "Typewriter: Natural Typing",
+			"description": "An example of a React typewriter animation using Motion for React's Typewriter component. In this demo, the Typewriter uses a natural typing animation that's based on the currently-typed word length, position in word, uncommon character combinations and punctuation.",
+			"url": "https://motion.dev/examples/react-typewriter-natural-typing",
+			"datePublished": "2025-07-23T00:00:00.000Z",
+			"categories": [
+				"text"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		},
+		{
+			"slug": "react-use-animation-frame",
+			"headline": "Spinning 3D cube",
+			"description": "An example of using Motion for React's useAnimationFrame hook to animate a 3D cube.",
+			"url": "https://motion.dev/examples/react-use-animation-frame",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-use-presence-data",
+			"headline": "usePresenceData",
+			"description": "An example of using usePresenceData to pass custom data through AnimatePresence to exiting elements.",
+			"url": "https://motion.dev/examples/react-use-presence-data",
+			"datePublished": "2025-02-06T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-use-time",
+			"headline": "useTime",
+			"description": "An example of using the useTime hook to animate an element at a constant speed.",
+			"url": "https://motion.dev/examples/react-use-time",
+			"datePublished": "2025-01-14T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-use-transform",
+			"headline": "Value transform & path drawing",
+			"description": "An example of linking SVG path length to a drag gesture using Motion for React's easy useTransform hook.",
+			"url": "https://motion.dev/examples/react-use-transform",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-variants",
+			"headline": "Variants",
+			"description": "An example of orchestrating animation sequences using Motion for React's variants.",
+			"url": "https://motion.dev/examples/react-variants",
+			"datePublished": "2024-12-17T00:00:00.000Z",
+			"categories": [
+				"basics"
+			],
+			"access": "free",
+			"reuseTier": "direct"
+		},
+		{
+			"slug": "react-warp-overlay",
+			"headline": "Warp overlay",
+			"description": "An example of creating a warp overlay effect with Motion for React.",
+			"url": "https://motion.dev/examples/react-warp-overlay",
+			"datePublished": "2025-04-17T00:00:00.000Z",
+			"categories": [
+				"experimental"
+			],
+			"access": "free",
+			"reuseTier": "adapt"
+		}
+	]
+}

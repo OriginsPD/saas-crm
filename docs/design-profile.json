@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"projectId": "saas-crm",
+	"projectTitle": "SaaS CRM",
+	"applicationType": "B2B SaaS CRM",
+	"designRead": "Reading this as: B2B SaaS CRM for business users, with a trust-first professional language, leaning toward shadcn/ui + brandkit tokens + high-end visual polish.",
+	"selectedSkills": [
+		"design-taste-frontend",
+		"brandkit",
+		"high-end-visual-design",
+		"gpt-taste",
+		"minimalist-ui"
+	],
+	"brandkitRequired": true,
+	"professionalStandards": {
+		"modernLayout": true,
+		"professionalNavigation": true,
+		"noScaffoldPlaceholders": true
+	},
+	"brandAssets": {
+		"outputDirectory": "docs/brand",
+		"expectedFiles": [
+			"docs/brand/brand-kit.png",
+			"docs/brand/logo-mark.svg",
+			"docs/brand/brand-system.md"
+		],
+		"generated": true
+	},
+	"updatedAt": "2026-07-12T01:14:00.213Z"
+}

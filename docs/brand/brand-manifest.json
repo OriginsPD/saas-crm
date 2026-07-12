@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"projectId": "saas-crm",
+	"projectTitle": "SaaS CRM",
+	"outputDirectory": "docs/brand",
+	"requiredAssets": [
+		{
+			"file": "brand-kit.png",
+			"format": "png",
+			"purpose": "Full brand guidelines board"
+		},
+		{
+			"file": "logo-mark.svg",
+			"format": "svg",
+			"purpose": "Primary logo mark for header/auth"
+		},
+		{
+			"file": "brand-system.md",
+			"format": "markdown",
+			"purpose": "Extracted colors, type, usage rules"
+		}
+	],
+	"generated": true,
+	"skill": "brandkit",
+	"instructions": "Attach brandkit skill. Generate brand-kit.png + logo-mark.svg. Document palette and typography in brand-system.md. Apply CSS variables to packages/ui/src/styles/globals.css."
+}

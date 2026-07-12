@@ -31,13 +31,17 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
 				content: "width=device-width, initial-scale=1",
 			},
 			{
-				title: "My App",
+				title: "SaaS CRM",
 			},
 		],
 		links: [
 			{
 				rel: "stylesheet",
 				href: appCss,
+			},
+			{
+				rel: "stylesheet",
+				href: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap",
 			},
 		],
 	}),
@@ -46,23 +50,31 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
 });
 
 function RootDocument() {
-	const isAuthShellRoute = useRouterState({
-		select: (state) =>
-			state.matches.some((match) => match.routeId.startsWith("/_auth")),
+	const hideGlobalHeader = useRouterState({
+		select: (state) => {
+			const path = state.location.pathname;
+			return (
+				path === "/" ||
+				path === "/login" ||
+				state.matches.some((match) => match.routeId.startsWith("/_auth"))
+			);
+		},
 	});
 
 	return (
-		<html lang="en" className="dark">
+		<html lang="en">
 			<head>
 				<HeadContent />
 			</head>
 			<body>
 				<div
 					className={
-						isAuthShellRoute ? "h-svh" : "grid h-svh grid-rows-[auto_1fr]"
+						hideGlobalHeader
+							? "min-h-svh"
+							: "grid min-h-svh grid-rows-[auto_1fr]"
 					}
 				>
-					{isAuthShellRoute ? null : <Header />}
+					{hideGlobalHeader ? null : <Header />}
 					<Outlet />
 				</div>
 				<Toaster richColors />
